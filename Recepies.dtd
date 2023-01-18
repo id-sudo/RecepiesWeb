@@ -1,4 +1,4 @@
-<?xml version="1.0"  ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT Recettes (recette | auteur)* >
 <!ELEMENT recette (titre | resume | photo | date-publication | difficulte | ingredient | nb-personnes | temps-preparation | temps-cuisson | temps-repos | description | note)* >
 <!ATTLIST recette id ID #IMPLIED >
@@ -12,15 +12,15 @@
 <!ELEMENT temps-repos (#PCDATA) >
 <!ELEMENT note (#PCDATA) >
 <!ELEMENT photo EMPTY>
-<!ELEMENT ingredient (nom  | apport-nutritif | apport-energetique | saison | description) >
-<!ATTLIST ingredient refprod IDREF #REQUIRED>
+<!ELEMENT ingredient (nom  | apport-nutritif | apport-energetique | saison | description)* >
+<!ATTLIST ingredient refprod IDREF #IMPLIED>
 <!ELEMENT apport-nutritif (#PCDATA)>
 <!ELEMENT apport-energetique (#PCDATA)>
 <!ELEMENT saison (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
 <!NOTATION jpeg SYSTEM "image/jpeg">
 <!ELEMENT produit (EMPTY) >
-<!ATTLIST nom produit ID #REQUIRED>
+<!ATTLIST produit nom ID #REQUIRED>
 <!ELEMENT auteur (nom | age | pays | sexe | biographie | ref-recette)* >
 <!ELEMENT nom (#PCDATA) >
 <!ELEMENT age (#PCDATA) >
@@ -32,6 +32,3 @@
 <!ATTLIST ref-recette ref IDREF #REQUIRED >
 <!ELEMENT categorie (nom, description, sous-categorie*) >
 <!ELEMENT sous-categorie (nom, description?, ref-recette*) >
-
-
-
