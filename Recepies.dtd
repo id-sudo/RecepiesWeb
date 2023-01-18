@@ -1,0 +1,37 @@
+<?xml version="1.0"  ?>
+<!ELEMENT Recettes (recette | auteur)* >
+<!ELEMENT recette (titre | resume | photo | date-publication | difficulte | ingredient | nb-personnes | temps-preparation | temps-cuisson | temps-repos | description | note)* >
+<!ATTLIST recette id ID #IMPLIED >
+<!ELEMENT titre (#PCDATA) >
+<!ELEMENT resume (#PCDATA) >
+<!ELEMENT date-publication (#PCDATA) >
+<!ELEMENT difficulte (#PCDATA) >
+<!ELEMENT nb-personnes (#PCDATA) >
+<!ELEMENT temps-preparation (#PCDATA) >
+<!ELEMENT temps-cuisson (#PCDATA) >
+<!ELEMENT temps-repos (#PCDATA) >
+<!ELEMENT note (#PCDATA) >
+<!ELEMENT photo EMPTY>
+<!ELEMENT ingredient (nom  | apport-nutritif | apport-energetique | saison | description) >
+<!ATTLIST ingredient refprod IDREF #REQUIRED>
+<!ELEMENT apport-nutritif (#PCDATA)>
+<!ELEMENT apport-energetique (#PCDATA)>
+<!ELEMENT saison (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!NOTATION jpeg SYSTEM "image/jpeg">
+<!ELEMENT produit (EMPTY) >
+<!ATTLIST nom produit ID #REQUIRED>
+<!ELEMENT auteur (nom | age | pays | sexe | biographie | ref-recette)* >
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT age (#PCDATA) >
+<!ELEMENT pays (#PCDATA) >
+<!ELEMENT sexe (#PCDATA) >
+<!ELEMENT biographie (#PCDATA) >
+<!ATTLIST auteur id ID #IMPLIED >
+<!ELEMENT ref-recette EMPTY >
+<!ATTLIST ref-recette ref IDREF #REQUIRED >
+<!ELEMENT categorie (nom, description, sous-categorie*) >
+<!ELEMENT sous-categorie (nom, description?, ref-recette*) >
+
+
+
