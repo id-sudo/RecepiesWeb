@@ -5,43 +5,13 @@
         <titre>FIGUES RÔTIES AU CHÈVRE ET AU THYM</titre>
         <resume>Vive l’Automne, et surtout la saison des figues ! La cueillette a lieu de juillet à octobre, alors on en profite avec des recettes sucrées, mais aussi salées ! Vous avez déjà essayé ? Cette version allie la fraîcheur du fruit et l’onctuosité du fromage, pour un plat très réconfortant avec de l’huile d’olive et du thym qui plaira à toute la famille !</resume>
         <date-publication>1 octobre 2022</date-publication>
-        <ingredient>
-            <nom>Figue</nom>
-            <apport-nutritif>fibres, potassium, calcium, vitamines du groupe B</apport-nutritif>
-            <apport-energetique>fibres, potassium, calcium, vitamines du groupe B</apport-energetique>
-            <saison>fin juin à novembre</saison>
-            <description>4 belles figues violettes bien mûres.</description>
-        </ingredient>
+        <ref-ingredient ref="fi1"/>
     </recette>
     <!-- cat boissons , s cat :Boissons sans alcool , s cat : Smoothie -->
     <recette id="r5">
         <titre>Chocolat chaud à la chicorée et chamallow</titre>
         <resume>Envie d’un chocolat chaud réconfortant avec un bon goût de chicorée, une bonne dose de chantilly et des chamallows moelleux ? Testez cette délicieuse recette express à déguster sous un plaid chaud devant votre série préférée</resume>
         <date-publication>18 novembre 2022</date-publication>
-        <ingredient>
-            <nom>Fécule de maïs</nom>
-            <apport-nutritif> Il contient beaucoup de fibres et il est une source intéressante de vitamines, surtout la vitamine B. Mais il est aussi excellent pour sa richesse en magnésium, en oligo-éléments (fer et zinc), en acides gras essentiels</apport-nutritif>
-            <apport-energetique>96kcal/100g</apport-energetique>
-            <saison>Récolté entre juillet et octobre</saison>
-            <description>1 cuillerée à café rase de fécule de maïs </description>
-        </ingredient>
-        <ingredient>
-            <nom>Lait</nom>
-            <description>1 tasse (environ 30 cl) de lait entier de préférence</description>
-        </ingredient>
-        <ingredient>
-            <nom>Sucre</nom>
-        </ingredient>
-        <ingredient>
-            <nom>Cacao</nom>
-            <description>1 cuillerée à soupe de cacao en poudre non sucré</description>
-        </ingredient>
-        <ingredient>
-            <nom>Chantilly</nom>
-        </ingredient>
-        <ingredient>
-            <nom>Minis guimauves</nom>
-        </ingredient>
         <nb-personnes> 1 personne </nb-personnes>
         <temps-preparation>5 min </temps-preparation>
         <difficulte>tres facile</difficulte>
@@ -179,6 +149,37 @@
         <temps-cuisson>30 min </temps-cuisson>
         
     </recette>
+    <ingredient id="fi1">
+        <nom>Figue</nom>
+        <apport-nutritif>fibres, potassium, calcium, vitamines du groupe B</apport-nutritif>
+        <apport-energetique>fibres, potassium, calcium, vitamines du groupe B</apport-energetique>
+        <saison>fin juin à novembre</saison>
+        <description>4 belles figues violettes bien mûres.</description>
+    </ingredient>
+    <ingredient>
+        <nom>Fécule de maïs</nom>
+        <apport-nutritif> Il contient beaucoup de fibres et il est une source intéressante de vitamines, surtout la vitamine B. Mais il est aussi excellent pour sa richesse en magnésium, en oligo-éléments (fer et zinc), en acides gras essentiels</apport-nutritif>
+        <apport-energetique>96kcal/100g</apport-energetique>
+        <saison>Récolté entre juillet et octobre</saison>
+        <description>1 cuillerée à café rase de fécule de maïs </description>
+    </ingredient>
+    <ingredient>
+        <nom>Lait</nom>
+        <description>1 tasse (environ 30 cl) de lait entier de préférence</description>
+    </ingredient>
+    <ingredient>
+        <nom>Sucre</nom>
+    </ingredient>
+    <ingredient>
+        <nom>Cacao</nom>
+        <description>1 cuillerée à soupe de cacao en poudre non sucré</description>
+    </ingredient>
+    <ingredient>
+        <nom>Chantilly</nom>
+    </ingredient>
+    <ingredient>
+        <nom>Minis guimauves</nom>
+    </ingredient>
     <auteur>
         <nom> Leroux </nom>
         <biographie>
