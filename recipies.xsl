@@ -5,12 +5,30 @@
             <html>
                 <head>
                     <title>Recettes</title>
+                    <link rel="stylesheet" href="style.css"/>
                 </head>
                 <body>
-                    <h1>Les recettes</h1>
-                    <xsl:call-template name="liste-des-recettes" />
-                    <h1>Les fiches des recettes</h1>
-                    <xsl:call-template name="fiches-des-recettes" />
+                    <header>
+                        <h1>Mon Site de Recettes</h1>
+                    </header>
+                    <nav>
+                        <ul>
+                            <li><a href="recettes.html" class="active">Recettes</a></li>
+                            <li><a href="ingredients.html">Ingrédients</a></li>
+                            <li><a href="categories.html">Catégories</a></li>
+                            <li><a href="produits.html">Produits</a></li>
+                            <li><a href="auteurs.html">Auteurs</a></li>
+                        </ul>
+                    </nav>
+                    <main>
+                        <h1>Les recettes</h1>
+                        <xsl:call-template name="liste-des-recettes" />
+                        <h1>Les fiches des recettes</h1>
+                        <xsl:call-template name="fiches-des-recettes" />
+                    </main>
+                    <footer>
+                        <p>2023 Mon Site de Recettes</p>
+                    </footer>
                 </body>
             </html>
         </xsl:result-document>
@@ -19,12 +37,30 @@
             <html>
                 <head>
                     <title>Auteurs</title>
+                    <link rel="stylesheet" href="style.css"/>
                 </head>
                 <body>
-                    <h1>Les auteurs</h1>
-                    <xsl:call-template name="liste-des-auteurs" />
-                    <h1>Les fiches des auteurs</h1>
-                    <xsl:call-template name="fiches-des-auteurs" />
+                    <header>
+                        <h1>Mon Site de Recettes</h1>
+                    </header>
+                    <nav>
+                        <ul>
+                            <li><a href="recettes.html">Recettes</a></li>
+                            <li><a href="ingredients.html">Ingrédients</a></li>
+                            <li><a href="categories.html">Catégories</a></li>
+                            <li><a href="produits.html">Produits</a></li>
+                            <li><a href="auteurs.html" class="active">Auteurs</a></li>
+                        </ul>
+                    </nav>
+                    <main>
+                        <h1>Les auteurs</h1>
+                        <xsl:call-template name="liste-des-auteurs" />
+                        <h1>Les fiches des auteurs</h1>
+                        <xsl:call-template name="fiches-des-auteurs" />
+                    </main>
+                    <footer>
+                        <p>2023 Mon Site de Recettes</p>
+                    </footer>
                 </body>
             </html>
         </xsl:result-document>
@@ -33,12 +69,30 @@
             <html>
                 <head>
                     <title>Ingrédints</title>
+                    <link rel="stylesheet" href="style.css"/>
                 </head>
                 <body>
-                    <h1>Les Ingrédents</h1>
-                    <xsl:call-template name="liste-des-ingredients" />
-                    <h1>Les fiches des ingrédients</h1>
-                    <xsl:call-template name="fiches-des-ingredients" />
+                    <header>
+                        <h1>Mon Site de Recettes</h1>
+                    </header>
+                    <nav>
+                        <ul>
+                            <li><a href="recettes.html">Recettes</a></li>
+                            <li><a href="ingredients.html" class="active">Ingrédients</a></li>
+                            <li><a href="categories.html">Catégories</a></li>
+                            <li><a href="produits.html">Produits</a></li>
+                            <li><a href="auteurs.html">Auteurs</a></li>
+                        </ul>
+                    </nav>
+                    <main>
+                        <h1>Les Ingrédents</h1>
+                        <xsl:call-template name="liste-des-ingredients" />
+                        <h1>Les fiches des ingrédients</h1>
+                        <xsl:call-template name="fiches-des-ingredients" />
+                    </main>
+                    <footer>
+                        <p>2023 Mon Site de Recettes</p>
+                    </footer>
                 </body>
             </html>
         </xsl:result-document>
@@ -47,12 +101,30 @@
             <html>
                 <head>
                     <title>Produits</title>
+                    <link rel="stylesheet" href="style.css"/>
                 </head>
                 <body>
-                    <h1>Les produits</h1>
-                    <xsl:call-template name="liste-des-produits" />
-                    <h1>Les fiches des produits</h1>
-                    <xsl:call-template name="fiches-des-produits" />
+                    <header>
+                        <h1>Mon Site de Recettes</h1>
+                    </header>
+                    <nav>
+                        <ul>
+                            <li><a href="recettes.html">Recettes</a></li>
+                            <li><a href="ingredients.html">Ingrédients</a></li>
+                            <li><a href="categories.html">Catégories</a></li>
+                            <li><a href="produits.html" class="active">Produits</a></li>
+                            <li><a href="auteurs.html">Auteurs</a></li>
+                        </ul>
+                    </nav>
+                    <main>
+                        <h1>Les produits</h1>
+                        <xsl:call-template name="liste-des-produits" />
+                        <h1>Les fiches des produits</h1>
+                        <xsl:call-template name="fiches-des-produits" />
+                    </main>
+                    <footer>
+                        <p>2023 Mon Site de Recettes</p>
+                    </footer>
                 </body>
             </html>
         </xsl:result-document>
@@ -61,12 +133,30 @@
             <html>
                 <head>
                     <title>Categories</title>
+                    <link rel="stylesheet" href="style.css"/>
                 </head>
                 <body>
-                    <h1>Les categories</h1>
-                    <xsl:call-template name="liste-des-categories" />
-                    <h1>Les fiches des categories</h1>
-                    <xsl:call-template name="fiches-des-categories" />
+                    <header>
+                        <h1>Mon Site de Recettes</h1>
+                    </header>
+                    <nav>
+                        <ul>
+                            <li><a href="recettes.html">Recettes</a></li>
+                            <li><a href="ingredients.html">Ingrédients</a></li>
+                            <li><a href="categories.html" class="active">Catégories</a></li>
+                            <li><a href="produits.html">Produits</a></li>
+                            <li><a href="auteurs.html">Auteurs</a></li>
+                        </ul>
+                    </nav>
+                    <main>
+                        <h1>Les categories</h1>
+                        <xsl:call-template name="liste-des-categories" />
+                        <h1>Les fiches des categories</h1>
+                        <xsl:call-template name="fiches-des-categories" />
+                    </main>
+                    <footer>
+                        <p>2023 Mon Site de Recettes</p>
+                    </footer>
                 </body>
             </html>
         </xsl:result-document>
