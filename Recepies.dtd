@@ -3,7 +3,7 @@
 <!ELEMENT Recettes (recette | categorie | sous-categorie | produit | ingredient | auteur)* >
 
 <!-- Entité texte -->
-<!ENTITY % texte "(p | strong | br | t )*" > 
+<!ENTITY % texte "(#PCDATA | p | strong | br | t )*" > 
 <!ELEMENT p ( #PCDATA | t | br | strong)* >
 <!ELEMENT strong (#PCDATA) >
 <!ELEMENT br EMPTY >
@@ -14,7 +14,9 @@
 
 <!-- Les recettes -->
 <!ELEMENT recette (titre | resume | photo | date-publication | difficulte | ref-ingredient | nb-personnes | temps-preparation | temps-cuisson | temps-repos | description | note)* >
-<!ATTLIST recette id ID #IMPLIED >
+<!ATTLIST 
+    recette id ID #IMPLIED
+    sous-categorie IDREF #IMPLIED>
 <!ELEMENT titre (#PCDATA) >
 <!ELEMENT resume %texte; >
 <!ELEMENT date-publication (#PCDATA) >

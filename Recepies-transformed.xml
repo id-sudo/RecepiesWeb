@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Recettes
   SYSTEM "Recepies.dtd">
-<Recettes>
-   <recette id="r2830">
+<Recettes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="Recepies-transformed.xsd">
+   <recette id="r2830" sous-categorie="SC1">
       <titre>Cake à la tomate farcie</titre>
       <photo href="http://www.odelices.com/images/recettes/cake-a-la-tomate-farcie.jpg"/>
       <resume>
@@ -41,7 +42,7 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
       </description>
       <note/>
    </recette>
-   <recette id="r3136">
+   <recette id="r3136" sous-categorie="SC1">
       <titre>Petits cakes au chèvre frais et myrtilles</titre>
       <photo href="http://www.odelices.com/images/recettes/petits-cakes-au-chevre-frais-et-myrtilles.jpg"/>
       <resume>
@@ -72,7 +73,7 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
       </description>
       <note/>
    </recette>
-   <recette id="r4275">
+   <recette id="r4275" sous-categorie="SC2">
       <titre>Mozzarella panée</titre>
       <photo href="http://www.odelices.com/images/recettes/mozzarella_panee.jpg"/>
       <resume>
@@ -101,7 +102,7 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
       </description>
       <note/>
    </recette>
-   <recette id="r3289">
+   <recette id="r3289" sous-categorie="SC2">
       <titre>Oeuf cocotte aux marrons</titre>
       <photo href="http://www.odelices.com/images/recettes/oeuf_cocotte_aux_marrons.jpg"/>
       <resume/>
@@ -126,7 +127,7 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
       </description>
       <note/>
    </recette>
-   <recette id="r4315">
+   <recette id="r4315" sous-categorie="SC3">
       <titre>Endives farcies au thon</titre>
       <photo href="http://www.odelices.com/images/recettes/endives_farcies_au_thon1.jpg"/>
       <resume>
@@ -159,7 +160,7 @@ Une salade « hébergée » dans une feuille d'endive ! Une idée gourmande qui 
       </description>
       <note/>
    </recette>
-   <recette id="r1241">
+   <recette id="r1241" sous-categorie="SC16">
       <titre>Moules et frites</titre>
       <photo href="http://www.odelices.com/images/recettes/moules-frites.jpg"/>
       <resume>
@@ -204,7 +205,7 @@ Recettes extraites du livre Craquez pour la cuisine des chtis !
       </description>
       <note/>
    </recette>
-   <recette id="r2101">
+   <recette id="r2101" sous-categorie="SC5">
       <titre>Gigot d'agneau au cumin</titre>
       <photo href="http://www.odelices.com/images/recettes/gigot-d-agneau-au-cumin.jpg"/>
       <resume>
@@ -236,7 +237,7 @@ Pour la cuisson d'un gigot d'agneau, comptez environ 15 min par livre. Il sera r
       </description>
       <note/>
    </recette>
-   <recette id="r497">
+   <recette id="r497" sous-categorie="SC5">
       <titre>Gigot d'agneau à la moutarde et au thym, gousses d'ail confites</titre>
       <photo href="http://www.odelices.com/images/recettes/gigot-d-agneau-a-la-moutarde-et-au-thym-gousses-d-ail-confites.jpg"/>
       <resume>
@@ -276,7 +277,7 @@ Servez avec des fagots de haricots verts entourés de tranches de lard et des po
       </description>
       <note/>
    </recette>
-   <recette id="r1611">
+   <recette id="r1611" sous-categorie="SC11">
       <titre>Saumon teriyaki</titre>
       <photo href="http://www.odelices.com/images/recettes/saumon-teriyaki.jpg"/>
       <resume>
@@ -311,7 +312,7 @@ Mon chéri adore la sauce teriyaki pour accompagner le saumon. Légèrement sucr
       </description>
       <note/>
    </recette>
-   <recette id="r1915">
+   <recette id="r1915" sous-categorie="SC11">
       <titre>Pavé de saumon aux girolles</titre>
       <photo href="http://www.odelices.com/images/recettes/paves_de_saumon_aux_girolles.jpg"/>
       <resume>
@@ -350,7 +351,7 @@ Profitez d' une balade dans les bois pour ramasser quelques girolles et les cuis
       </description>
       <note/>
    </recette>
-   <recette id="r4385">
+   <recette id="r4385" sous-categorie="SC14">
       <titre>Moelleux au chocolat noir et à l'huile d'olive</titre>
       <photo href="http://www.odelices.com/images/recettes/moelleux_au_chocolat_noir.jpg"/>
       <resume>
@@ -386,7 +387,7 @@ Donnez une touche d'originalité à vos moelleux au chocolat en remplaçant le b
       </description>
       <note/>
    </recette>
-   <recette id="r957">
+   <recette id="r957" sous-categorie="SC14">
       <titre>Moelleux au chocolat, coeur fondant aux framboises</titre>
       <photo href="http://www.odelices.com/images/recettes/moelleux_au_chocolat_coeur_fondant_aux_framboises.jpg"/>
       <resume>
@@ -424,7 +425,7 @@ Astuce : la réalisation de la compotée de framboises permet d'éviter de trop 
       </description>
       <note/>
    </recette>
-   <recette id="r2678">
+   <recette id="r2678" sous-categorie="SC14">
       <titre>Moelleux au chocolat au coeur cerise</titre>
       <photo href="http://www.odelices.com/images/recettes/moelleux-au-chocolat-au-coeur-cerise.jpg"/>
       <resume/>
@@ -1140,6 +1141,7 @@ Comment aimez-vous le cabillaud ? Poché, en papillotes, au curry, en tajine, ta
       <nom>Marie-Laure Tombini</nom>
       <pays>France</pays>
       <sexe>Femme</sexe>
+      <biographie>Auteur et photographe culinaire, Marie-Laure Tombini a créé en 2002 le site Ô Délices pour partager ses recettes et idées avec vous. Elle travaille en collaboration avec Vanessa Romano, Margot Debouzy depuis 2008. </biographie>
       <ref-recette ref="r4275"/>
       <ref-recette ref="r3289"/>
       <ref-recette ref="r4315"/>
@@ -1154,24 +1156,28 @@ Comment aimez-vous le cabillaud ? Poché, en papillotes, au curry, en tajine, ta
       <nom>Vanessa </nom>
       <pays>France</pays>
       <sexe>Homme</sexe>
+      <biographie/>
       <ref-recette ref="r3136"/>
    </auteur>
    <auteur id="AUT3">
       <nom>Nadege </nom>
       <pays>France</pays>
       <sexe>Femme</sexe>
+      <biographie/>
       <ref-recette ref="r2830"/>
    </auteur>
    <auteur id="AUT4">
       <nom>Karine Descamps</nom>
       <pays>France</pays>
       <sexe>Femme</sexe>
+      <biographie>Auteur à succès, Karine Descamps a publié 2 superbes livres aux éditions Mango : Craquez pour la cuisine des ch'tis ! et Craquez pour la noix de coco ! </biographie>
       <ref-recette ref="r1241"/>
    </auteur>
    <auteur id="AUT5">
       <nom>Clochette </nom>
       <pays>France</pays>
       <sexe>Femme</sexe>
+      <biographie/>
       <ref-recette ref="r497"/>
    </auteur>
 </Recettes>

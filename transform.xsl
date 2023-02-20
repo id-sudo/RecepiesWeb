@@ -19,6 +19,9 @@
                 <xsl:attribute name="id">
                     <xsl:value-of select="@id"/>
                 </xsl:attribute>
+                <xsl:attribute name="sous-categorie">
+                    <xsl:value-of select="info[@nom='sous-catégorie']/@value"/>
+                </xsl:attribute>
                 <titre><xsl:value-of select="info[@nom='nom']/@value"/></titre>
                 <photo>
                     <xsl:attribute name="href">
@@ -136,6 +139,7 @@
                 </nom>
                 <pays><xsl:value-of select="info[@nom='pays']/@value"/></pays>
                 <sexe><xsl:value-of select="info[@nom='sexe']/@value"/></sexe>
+                <biographie><xsl:value-of select="info[@nom='biographie']/@value"/></biographie>
                 <xsl:for-each select="info[@nom='recette']">
                     <ref-recette>
                         <xsl:attribute name="ref">
